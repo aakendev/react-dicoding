@@ -99,6 +99,7 @@ function News() {
         category={someNews[2].category}
         link={someNews[2].link}
       />
+      <Card {...someNews[0]} />
     </div>
   );
 }
